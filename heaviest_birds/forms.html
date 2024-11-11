@@ -13,22 +13,31 @@
         <button type="button">Please do not submit the form</button>
         <p>
             <label for="username">Enter a Username:</label>
-            <input type="text" placeholder="username" id="username">
+            <input type="text" placeholder="username" id="username" name="username">
         </p>
         <p>
             <label for="password" type="password">Enter a Password: </label>
-            <input type="password" placeholder="password" id="password"> <!-- oculta a senha digitada  -->
+            <input type="password" placeholder="password" id="password" name="password">
+            <!-- oculta a senha digitada  -->
         </p>
         <p>
             <label for="color">Select a Color:</label>
-            <input id="color" type="color"> <!-- selecionar cor  -->
+            <input id="color" type="color" name="color"> <!-- selecionar cor  -->
         </p>
         <p>
             <label for="number">Enter a number:</label>
-            <input type="number" placeholder="enter a number" id="number">
+            <input type="number" placeholder="enter a number" id="number" name="num">
         </p>
         <button>Submit</button>
         <input type="submit" value="Click me!"> <!-- outro jeito de enviar o formulário  -->
+    </form>
+    <hr>
+    <button>Not inside form</button>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="query">
+        <button>Search Reddit</button>
+
+
     </form>
 </body>
 
