@@ -52,6 +52,30 @@
         <button>Search YouTube</button>
     </form>
 
+    <h2>More inputs!</h2>
+    <form action="./heaviest_birds.html">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label> <!--label depois da checkbox-->
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs"> <!--id = label do for;-->
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p> <!--para radio buttons estarem linkados dou a eles o mesmo nome-->
+
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+
+        <button>Submit</button>
+    </form>
 </body>
 
 </html>
